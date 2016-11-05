@@ -22,6 +22,7 @@ def draw():
 
 def main():
     draw()
+    print("Hello", ..., sep=' ', end='\n', file=sys.stdout, flush=False)
 
 if __name__ == '__main__':
     main()
